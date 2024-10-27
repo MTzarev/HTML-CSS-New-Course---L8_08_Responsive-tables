@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+@media(max-width:600px){
+    .desktop{
+        display: none;
+    }
+}
+@media (min-width:601px){
+    .phone{
+        display: none;
+    }
+}
+.phone table{
+    display: block;
+    border-collapse: collapse;
+    border: 1px solid rgb(204, 204, 204);
+    border-top: 0px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+    
+}
+.phone table tr:nth-child(1), .phone table tr:nth-child(2), .phone table tr:nth-child(3), .phone table tr:nth-child(4), .phone table tr:nth-child(5) {
+    border-bottom: 0px;
+}
+.phone td:nth-child(even){
+    padding-left: 20px;
+}
+.phone table tr:nth-child(1), .phone table tr:nth-child(2), .phone table tr:nth-child(3){
+    background-color:rgb(241, 241, 241) ;
+}
+.phone table tr:nth-child(4), .phone table tr:nth-child(5), .phone table tr:nth-child(6){
+    background-color: rgb(255, 255, 255);
+}
+.phone table{
+    width: 100%;
+    padding-top: 50px;
+    padding-left:25px;
+    padding-right: 25px;
+}
+
+.desktop table, tbody, thead, tr, th, td{
+    border: 1px solid rgb(175, 175, 175);
+    border-collapse:collapse;
+    text-align: left;
+}
+.desktop table{
+    width: 100%;
+}
+.desktop th, td{
+    width: 33.33%;
+}
+
+.desktop {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+}
+.desktop thead{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.desktop table tbody tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
